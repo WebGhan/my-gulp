@@ -1,0 +1,8 @@
+div { 
+  margin: 20px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+.css-box { width: 100px; height: 100px; background: green; }

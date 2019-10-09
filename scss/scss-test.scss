@@ -1,0 +1,5 @@
+$width: 100px;
+$height: 100px;
+$color: red;
+
+.scss-box { display: block; width: $width; height: $height; background: $color; }
