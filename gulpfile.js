@@ -10,7 +10,7 @@ sass.compiler = require('node-sass');
 // 压缩js
 function compressJs() {
   return src('src/js/**/*.js')
-    .pipe(uglify())
+    .pipe(uglify({keep_fnames: true}))
     .pipe(rename({ extname: '.min.js' }))
     .pipe(dest('dist/js/'));
 }
